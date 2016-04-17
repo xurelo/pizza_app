@@ -14,6 +14,11 @@
 		A18990DA1CC3973B00BB7D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18990D81CC3973B00BB7D86 /* LaunchScreen.storyboard */; };
 		A18990E51CC3973B00BB7D86 /* pizza_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18990E41CC3973B00BB7D86 /* pizza_appTests.swift */; };
 		A18990F01CC3973B00BB7D86 /* pizza_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18990EF1CC3973B00BB7D86 /* pizza_appUITests.swift */; };
+		A18990FE1CC3A95100BB7D86 /* TipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18990FD1CC3A95100BB7D86 /* TipoMasa.swift */; };
+		A18991001CC3AC5E00BB7D86 /* TipoQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18990FF1CC3AC5E00BB7D86 /* TipoQueso.swift */; };
+		A18991021CC3AF7600BB7D86 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18991011CC3AF7600BB7D86 /* Ingredientes.swift */; };
+		A18991041CC3AFD800BB7D86 /* Confirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18991031CC3AFD800BB7D86 /* Confirmacion.swift */; };
+		A18991061CC3B5F400BB7D86 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18991051CC3B5F300BB7D86 /* Checkbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		A18990EB1CC3973B00BB7D86 /* pizza_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pizza_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18990EF1CC3973B00BB7D86 /* pizza_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizza_appUITests.swift; sourceTree = "<group>"; };
 		A18990F11CC3973B00BB7D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18990FD1CC3A95100BB7D86 /* TipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasa.swift; sourceTree = "<group>"; };
+		A18990FF1CC3AC5E00BB7D86 /* TipoQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQueso.swift; sourceTree = "<group>"; };
+		A18991011CC3AF7600BB7D86 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
+		A18991031CC3AFD800BB7D86 /* Confirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Confirmacion.swift; sourceTree = "<group>"; };
+		A18991051CC3B5F300BB7D86 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				A18990D61CC3973B00BB7D86 /* Assets.xcassets */,
 				A18990D81CC3973B00BB7D86 /* LaunchScreen.storyboard */,
 				A18990DB1CC3973B00BB7D86 /* Info.plist */,
+				A18990FD1CC3A95100BB7D86 /* TipoMasa.swift */,
+				A18990FF1CC3AC5E00BB7D86 /* TipoQueso.swift */,
+				A18991011CC3AF7600BB7D86 /* Ingredientes.swift */,
+				A18991031CC3AFD800BB7D86 /* Confirmacion.swift */,
+				A18991051CC3B5F300BB7D86 /* Checkbox.swift */,
 			);
 			path = pizza_app;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18990FE1CC3A95100BB7D86 /* TipoMasa.swift in Sources */,
 				A18990D21CC3973B00BB7D86 /* ViewController.swift in Sources */,
+				A18991021CC3AF7600BB7D86 /* Ingredientes.swift in Sources */,
 				A18990D01CC3973B00BB7D86 /* AppDelegate.swift in Sources */,
+				A18991061CC3B5F400BB7D86 /* Checkbox.swift in Sources */,
+				A18991001CC3AC5E00BB7D86 /* TipoQueso.swift in Sources */,
+				A18991041CC3AFD800BB7D86 /* Confirmacion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

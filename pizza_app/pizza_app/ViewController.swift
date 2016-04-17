@@ -14,6 +14,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 
     @IBOutlet weak var sizeNextStep: UIButton!
     let sizes = ["Chica", "Mediana", "Grande"];
+    var size : String = "Chica";
     
     
     override func viewDidLoad() {
@@ -25,6 +26,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        let svc = segue.destinationViewController as! TipoMasa;
+        svc.size = self.size
     }
 
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
@@ -39,6 +45,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        self.size=sizes[row]
     }
 
 }
